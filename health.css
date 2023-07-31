@@ -1,0 +1,45 @@
+.ways{
+    display: flex;
+    justify-content: space-between;
+    background: cadetblue;
+    height: 299px;
+}
+.ways .wayh{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.ways img:hover{
+    scale: 1.06;
+}
+
+.waylist{
+    padding: 30px 0 30px 0;
+}
+
+.waylist ul{
+    list-style: none;
+    text-decoration-line: underline;
+    color: blue;
+}
+.waylist li{
+    padding: 8px 0;
+}
+/* 
+.careWays{
+    position: relative;
+} */
+.careWays div {
+    width: 50%;
+}
+.careWays div:nth-child(2n) {
+    background-color: rgb(244 244 244);
+   position: relative;
+   left: 50%;
+}
+
+.careWays div:nth-child(2n+ 1){
+    background-color: rgb(244, 244, 244);   
+}
